@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
 
-  s.add_dependency "httparty"                 , "~> 0.8.3"
+  s.add_dependency "httparty"                 , ">= 0.8.3"
   s.add_development_dependency "rails"        , "~> 3.1"
   s.add_development_dependency "rake"         , "~> 0.9"
   s.add_development_dependency "fakeweb"      , "~> 1.3"
